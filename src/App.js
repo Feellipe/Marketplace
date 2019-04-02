@@ -1,18 +1,18 @@
-import React, { Component } from 'react';
-import styled from 'styled-components';
-import Header from './Components/Areas/Header';
-import Market from './Components/Areas/Market';
-import SideMenu from './Components//Areas/SideMenu';
-import './App.css';
+import React, { Component } from "react";
+import styled from "styled-components";
+import Header from "./Components/Areas/Header";
+import Market from "./Components/Areas/Market";
+import LateralMenu from "./Components//Areas/LateralMenu";
+import "./App.css";
 
 class App extends Component {
   render() {
     return (
       <div className="App">
         <AppWrapper>
-          <Header></Header>
-          <Market></Market>
-          <SideMenu></SideMenu>
+          <Header />
+          <Market />
+          <LateralMenu />
         </AppWrapper>
       </div>
     );
